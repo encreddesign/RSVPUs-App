@@ -1,0 +1,17 @@
+{
+  "name": "rsvpus-app",
+  "version": "1.0.0",
+  "description": "Backend for rsvpus system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo 'Test'; exit;",
+    "start": "node server.js"
+  },
+  "author": "Joshua Grierson",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0"
+  }
+}

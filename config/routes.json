@@ -1,0 +1,6 @@
+{
+  "Login": {
+    "route": "/v1/api/login:hash",
+    "handler": "loginUser"
+  }
+}
