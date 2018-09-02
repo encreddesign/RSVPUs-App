@@ -2,5 +2,13 @@
   "Login": {
     "route": "/v1/api/login:hash",
     "handler": "loginUser"
+  },
+  "CreateUser": {
+    "route": "/v1/api/user/new",
+    "handler": "createUser"
+  },
+  "VerifyAccount": {
+    "route": "/account/verify:hash",
+    "handler": "verifyUserAccount"
   }
 }

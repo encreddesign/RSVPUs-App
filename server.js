@@ -11,5 +11,6 @@ const router = new Router('config/routes.json', new Callbacks());
 
 // register routes
 App.post(router.get('Login').path, router.get('Login').callback);
+App.post(router.get('CreateUser').path, router.get('CreateUser').callback);
 
 App.listen(port, () => console.log(`RSVPUs server listening on port ${port}...`));
